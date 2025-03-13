@@ -2,12 +2,19 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
-$code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+// $base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+// $code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+// $base-font-size:   16px !default;
+// $base-font-weight: 400 !default;
+// $small-font-size:  $base-font-size * 0.875 !default;
+// $base-line-height: 1.5 !default;
+
+$base-font-family: "Cinzel", "Garamond", "Times New Roman", serif !default;
+$code-font-family: "Fira Code", "Courier New", monospace;
+$base-font-size: 18px !default; // Increased for readability
+$base-font-weight: 700 !default; // Make headers bolder for better visibility
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.4 !default; // Slightly tighter for titles
 
 $spacing-unit:     30px !default;
 

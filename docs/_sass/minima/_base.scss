@@ -20,6 +20,25 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  // text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 15px #DAA520;
+  font-weight: bold;
+
+  // text-shadow:
+  //       2px 2px 0 rgba(255, 255, 255, 0.2), /* Light highlight */
+  //       -1px -1px 0 rgba(255, 255, 255, 0.3), /* Opposite highlight */
+  //       0 2px 2px $shadow-color, /* Soft shadow below for depth */
+  //       0 5px 5px rgba(0, 0, 0, 0.5); /* Deeper shadow for more definition */
+  //
+  //
+  // text-stroke: 1px rgba(0, 0, 0, 0.5); /* Outline effect to enhance definition */
+
+  text-shadow:
+        1px 1px 0px black,   /* Right shadow */
+        -1px -1px 0px black, /* Left shadow */
+        1px -1px 0px black,  /* Top-right shadow */
+        -1px 1px 0px black,  /* Bottom-left shadow */
+        0 0 5px rgba(255, 255, 255, 0.5), /* Soft highlight glow */
+        0 1px 3px rgba(0, 0, 0, 0.5); /* Slight darker shadow below for depth */
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;

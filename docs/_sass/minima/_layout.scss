@@ -9,6 +9,8 @@
   background-color: $background-color;
   border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
+  z-index: 1;
+
 }
 
 .site-title {
@@ -136,6 +138,7 @@
   border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
   position: relative;
+  z-index: 1;
 }
 
 .footer-heading {
@@ -222,7 +225,7 @@
   padding-left: 60px;
   display: flex;
   justify-content: center;
-
+  z-index: 1;
 }
 
 .page-heading {
