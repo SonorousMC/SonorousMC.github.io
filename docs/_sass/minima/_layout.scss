@@ -217,13 +217,7 @@
   padding-bottom: $spacing-unit;
   flex: 1;
   background: rgba(0, 0, 0, 0.5);  /* Example: Black overlay with 50% transparency*/
-  display: flex; /* OPTIONAL: Set display to flex if you want to layout children flexibly */
-  flex-direction: column; /* OPTIONAL: Readable stacking of child elements */
-  align-items: center; /* OPTIONAL: Center items horizontally (change if needed) */
-  justify-content: flex-start; /* OPTIONAL: Stack items from the top */
 
-  /* Smooth transition on background for better UI */
-  transition: background 0.3s ease; /* Just an example for aesthetic enhancement */
 }
 
 .page-heading {
