@@ -33,7 +33,6 @@ youtube: https://www.youtube.com/@SonorousMC
 discord: https://discord.gg/75gwfkP8
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
