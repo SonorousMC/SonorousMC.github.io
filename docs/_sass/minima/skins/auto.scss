@@ -35,6 +35,67 @@ $lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
 $lm-table-border-color:    $lm-border-color-01 !default;
 
 
+// Light mode
+// ----------
+
+// $lm-brand-color:           #828282 !default;
+//
+// $lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
+// $lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
+//
+// $lm-site-title-color:      $lm-brand-color-dark !default;
+//
+// $lm-text-color:            #111111 !default;
+// $lm-background-color:      #fdfdfd !default;
+// $lm-code-background-color: #eeeeff !default;
+//
+// $lm-link-base-color:       #2a7ae2 !default;
+// $lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
+// $lm-link-hover-color:      $lm-text-color !default;
+//
+// $lm-border-color-01:       $lm-brand-color-light !default;
+// $lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
+// $lm-border-color-03:       $lm-brand-color-dark !default;
+//
+// $lm-table-text-color:      lighten($lm-text-color, 18%) !default;
+// $lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
+// $lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
+// $lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
+// $lm-table-border-color:    $lm-border-color-01 !default;
+
+
+// Gold mode
+// ----------
+
+// Set the brand colors (black with gold highlights)
+$lm-brand-color:           #FFD700 !default; // Gold color
+$lm-brand-color-light:     lighten($lm-brand-color, 40%) !default; // Lighter gold
+$lm-brand-color-dark:      darken($lm-brand-color, 25%) !default; // Darker gold (or a shade closer to black)
+
+// Text and background colors
+$lm-site-title-color:      $lm-brand-color-dark !default; // Dark gold for title
+$lm-text-color:            #111111 !default; // Main text color
+$lm-background-color:      #fdfdfd !default; // Background color remains unchanged
+$lm-code-background-color: #eeeeff !default; // Code background remains unchanged
+
+// Link colors
+$lm-link-base-color:       #2a7ae2 !default; // Base link color
+$lm-link-visited-color:    darken($lm-link-base-color, 15%) !default; // Visited link color
+$lm-link-hover-color:      $lm-text-color !default; // Hover link color
+
+// Border colors
+$lm-border-color-01:       $lm-brand-color-light !default; // Border using lighter gold
+$lm-border-color-02:       lighten($lm-brand-color, 35%) !default; // Another shade for border
+$lm-border-color-03:       $lm-brand-color-dark !default; // Darker gold for borders
+
+// Table colors
+$lm-table-text-color:      lighten($lm-text-color, 18%) !default; // Table text color
+$lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default; // Zebra color for table rows
+$lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default; // Header background for table
+$lm-table-header-border:   lighten($lm-brand-color, 37%) !default; // Table header border color
+$lm-table-border-color:    $lm-border-color-01 !default; // Table border color
+
+
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
 // ----------------------------------------------------------------------------
 
