@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<style>
+<!--<style>
  body {
     /* Set background image */
     background-image: url("static/images/Background.jpg");
@@ -7,15 +7,27 @@
     background-attachment:fixed;
     background-size: cover;
  }
-</style>
+</style>-->
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
 
   <body>
 
-    {%- include header.html -%}
 
+  <iframe
+  src=“https://www.youtube.com/embed/MmB9b5njVbA/simple”
+  width="100%"
+  height="auto"
+  framebg=”#FFFFFF”
+  allow=”accelerometer, autoplay, closedcaption, gyroscope, presentation,”
+  autoplay=”true”
+  loop=”true”
+  controls=”false”
+  allowfullscreen=”true”> </iframe>
+
+
+    {%- include header.html -%}
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
