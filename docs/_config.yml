@@ -59,6 +59,10 @@ minima:
   nav_pages:
     - about.markdown
     - how-to-join.markdown
+    - staff.markdown
+    - lore.markdown
+    - features.markdown
+    - donations.markdown
 
   # Set to `true` to show excerpts on the homepage.
   #show_excerpts: false
