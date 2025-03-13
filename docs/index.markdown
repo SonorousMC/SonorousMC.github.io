@@ -4,6 +4,9 @@
 
 layout: home
 ---
+
+![Background](/assets/Background.jpg)
+
 <ul>
   {% for post in site.posts %}
     <li>
