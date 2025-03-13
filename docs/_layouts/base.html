@@ -17,8 +17,8 @@
 
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
-      <iframe
-        src="https://www.youtube.com/embed/MmB9b5njVbA"
+    <iframe
+        src="#https://www.youtube.com/embed/MmB9b5njVbA"
         width="100%"
         height="100%"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; presentation"
@@ -27,11 +27,12 @@
         controls="false"
         allowfullscreen="true">
 
+        <div class="wrapper">
+        {{ content }}
+      </div>
 
-        <!--<div class="wrapper">
-          {{ content }}
-        </div>-->
-      </iframe>
+    </iframe>
+
     </main>
 
     {%- include footer.html -%}
