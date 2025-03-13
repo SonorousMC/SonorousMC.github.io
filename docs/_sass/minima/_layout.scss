@@ -216,7 +216,7 @@
   padding-inline: 0;
   padding-bottom: $spacing-unit;
   flex: 1 0 auto;
-  background: linear-gradient (to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)); /* Dark grey overlay */
+  background-color: rgba(0, 0, 0, 0.5);  /* Example: Black overlay with 50% transparency*/
 
 }
 
