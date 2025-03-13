@@ -35,6 +35,7 @@ discord: https://discord.gg/75gwfkP8
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 
 # If you clone the Minima repo and build locally, use this setting.
