@@ -15,23 +15,23 @@
   <body>
 
 
-  <iframe
-  src=“https://www.youtube.com/embed/MmB9b5njVbA/simple”
-  width="100%"
-  height="auto"
-  framebg=”#FFFFFF”
-  allow=”accelerometer, autoplay, closedcaption, gyroscope, presentation,”
-  autoplay=”true”
-  loop=”true”
-  controls=”false”
-  allowfullscreen=”true”> </iframe>
-
-
     {%- include header.html -%}
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+      <iframe
+        src="https://www.youtube.com/embed/MmB9b5njVbA"
+        width="100%"
+        height="100%"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; presentation"
+        autoplay="true"
+        loop="true"
+        controls="false"
+        allowfullscreen="true">
+
+
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </iframe>
     </main>
 
     {%- include footer.html -%}
