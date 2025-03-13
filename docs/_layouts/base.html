@@ -6,7 +6,20 @@
     background-size: cover;
  }
  */
-
+  .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white; /* Change to the desired text color */
+        text-align: center; /* Center the text */
+        z-index: 1; /* Ensure overlay is above the iframe */
+        pointer-events: auto; /* Allow events on the overlay */
+    }
 </style>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
@@ -25,9 +38,11 @@
         allowfullscreen="true">
     </iframe>
 
-    <div class="wrapper">
-        {{ content }}
-      </div>
+    <div class="overlay">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>
 
     </main>
 
