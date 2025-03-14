@@ -13,6 +13,17 @@
 
   <body>
 
+    <div class="cursor"></div> <!-- Custom cursor element -->
+      <script>
+          // JavaScript to move the custom cursor
+          const cursor = document.querySelector('.cursor');
+
+          document.addEventListener('mousemove', (e) => {
+              cursor.style.left = `${e.pageX}px`;
+              cursor.style.top = `${e.pageY}px`;
+          });
+      </script>
+
       {%- include header.html -%}
 
 

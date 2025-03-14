@@ -29,13 +29,24 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="SonorousMC" />
 </head>
-<body><header class="site-header">
+<body>
+
+    <div class="cursor"></div> <!-- Custom cursor element -->
+      <script>
+          // JavaScript to move the custom cursor
+          const cursor = document.querySelector('.cursor');
+
+          document.addEventListener('mousemove', (e) => {
+              cursor.style.left = `${e.pageX}px`;
+              cursor.style.top = `${e.pageY}px`;
+          });
+      </script><header class="site-header">
 
   <div class="wrapper">
     <a class="site-title" rel="author" href="/">
     SonorousMC
     <img src="static/images/Logo.png"
-        alt="Your Logo"
+    alt="Your Logo"
         width="36"
         height="36"
         style="margin-right: 10px;"

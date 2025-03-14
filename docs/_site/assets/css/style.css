@@ -65,7 +65,11 @@ html { font-size: 18px; }
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 700 18px/1.4 "Cinzel", "Garamond", "Times New Roman", serif; font-weight: bold; text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black, 0 0 5px rgba(255, 255, 255, 0.5), 0 1px 3px rgba(0, 0, 0, 0.5); /* Slight darker shadow below for depth */ color: #B8860B; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; }
+body { font: 700 18px/1.4 "Cinzel", "Garamond", "Times New Roman", serif; font-weight: bold; text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black, 0 0 5px rgba(255, 255, 255, 0.5), 0 1px 3px rgba(0, 0, 0, 0.5); /* Slight darker shadow below for depth */ color: #B8860B; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; cursor: url("/static/images/Pickaxe.png"), auto; /* Use the custom cursor image */ }
+
+.cursor { position: absolute; width: 20px; height: 20px; background-color: #DAA520; /* Goldenrod color */ border-radius: 50%; /* Circle shape */ pointer-events: none; /* Prevents the cursor from blocking events */ box-shadow: 0 0 10px rgba(218, 165, 32, 0.8); /* Glow effect */ transition: transform 0.15s ease; /* Smooth animation */ z-index: 1; }
+
+body:hover .cursor { transform: scale(1.5); /* Slightly enlarge cursor on hover */ }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -136,7 +140,7 @@ table td { border: 1px solid #fff7cc; }
 @media screen and (max-width: 800px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
 
 /** Site header */
-.site-header { position: relative; width: 100%; min-height: 55.95px; line-height: 56.7px; background-color: #fdfdfd; border-top: 5px solid #806c00; border-bottom: 1px solid #fff7cc; z-index: 1; }
+.site-header { position: relative; width: 100%; min-height: 55.95px; line-height: 56.7px; background-color: #fdfdfd; border-top: 5px solid #806c00; border-bottom: 1px solid #fff7cc; z-index: 1; background-image: url("/static/images/Banner.jpg"); background-size: auto; background-position: center; background-repeat: no-repeat; }
 
 .site-title { font-size: 1.625rem; font-weight: 300; letter-spacing: -1px; margin-bottom: 0; float: left; }
 @media screen and (max-width: 600px) { .site-title { padding-right: 45px; } }

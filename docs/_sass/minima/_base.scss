@@ -51,6 +51,26 @@ body {
   min-height: 100vh;
   flex-direction: column;
   overflow-wrap: break-word;
+
+  // cursor: none; /* Hide the default cursor */
+  cursor: url('/static/images/Pickaxe.png'), auto; /* Use the custom cursor image */
+}
+
+
+.cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #DAA520; /* Goldenrod color */
+    border-radius: 50%; /* Circle shape */
+    pointer-events: none; /* Prevents the cursor from blocking events */
+    box-shadow: 0 0 10px rgba(218, 165, 32, 0.8); /* Glow effect */
+    transition: transform 0.15s ease; /* Smooth animation */
+    z-index: 1;
+}
+
+body:hover .cursor {
+    transform: scale(1.5); /* Slightly enlarge cursor on hover */
 }
 
 
