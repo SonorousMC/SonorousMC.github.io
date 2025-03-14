@@ -1,6 +1,6 @@
 <header class="site-header">
 
-  <div class="wrapper" style="background-image: url('static/images/Banner.jpg'); background-size: auto; background-position: center; background-repeat: no-repeat;>
+  <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
